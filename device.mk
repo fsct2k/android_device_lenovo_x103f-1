@@ -348,3 +348,6 @@ PRODUCT_PACKAGES += \
 
 # Call the proprietary setup
 $(call inherit-product, vendor/lenovo/x103f/x103f-vendor.mk)
+
+$(call inherit-product, $(SRC_TARGET_DIR)/product/go_defaults.mk)
+
