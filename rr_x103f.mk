@@ -16,12 +16,12 @@
 $(call inherit-product, device/lenovo/x103f/full_x103f.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/rr/config/common_full_tablet_wifionly.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8909
 
-PRODUCT_NAME := lineage_x103f
+PRODUCT_NAME := rr_x103f
 BOARD_VENDOR := lenovo
 PRODUCT_DEVICE := x103f
 PRODUCT_MODEL := TB-X103F
